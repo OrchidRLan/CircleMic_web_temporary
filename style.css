@@ -1,20 +1,17 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow: hidden; /* 防止出现滚动条 */
+    /* 移除 height: 100%; 以允许内容超出屏幕高度 */
     background-color: #1a1a1a; /* 与图片背景相近的颜色 */
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    /* 移除 display: flex; 和 align-items: center; */
+    /* 让图片从页面顶部开始正常显示 */
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+    max-width: 100%; /* 图片宽度最大为屏幕宽度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    display: block; /* 移除图片底部可能存在的空白 */
 }
