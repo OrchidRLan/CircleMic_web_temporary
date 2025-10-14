@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CircleMic Image Fullscreen</title>
+    <style>
+        /* 让页面和图片都占满全屏 */
+        html, body {
+            margin: 0; padding: 0; height: 100%; background: #000;
+            display: flex; justify-content: center; align-items: center;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* 保持比例 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<img src="https://raw.githubusercontent.com/momoko0719/circlemic-vr/main/src/assets/web%20v2.17.png" alt="CircleMic" />
+</body>
+</html>
