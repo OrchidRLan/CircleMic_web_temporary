@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
     /* 移除 height: 100%; 以允许内容超出屏幕高度 */
     background-color: #1a1a1a; /* 与图片背景相近的颜色 */
 }
